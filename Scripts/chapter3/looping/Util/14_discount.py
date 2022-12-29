@@ -21,6 +21,7 @@ products = [
 for i in products:
     if i['expiration_date'] != today:
         continue
+    print('Previous price: ', i['price'])
     i['price'] *= 0.8
     print(
         'Price for sku', i['sku'],

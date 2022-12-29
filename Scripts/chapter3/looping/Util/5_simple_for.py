@@ -5,4 +5,4 @@
 # A more C like code:
 surnames = ['Rivest', 'Shamir', 'Adleman']
 for position, i in enumerate(surnames):
-    print(position, i)
+    print('position:', position, 'surname:', i)
